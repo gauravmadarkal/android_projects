@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+     <color name="bright_pink">#FF007F</color>
+       <color name="red">#FF0000</color>
+       <color name="orange">#FF7F00</color>
+       <color name="yellow">#FFFF00</color>
+       <color name="chartreuse">#7FFF00</color>
+       <color name="green">#00FF00</color>
+       <color name="spring_green">#00FF7F</color>
+       <color name="cyan">#00FFFF</color>
+       <color name="azure">#007FFF</color>
+       <color name="blue">#0000FF</color>
+       <color name="violet">#7F00FF</color>
+       <color name="magenta">#FF00FF</color>
+    <color name="color2">#55efc4</color>
+    <color name="color3">#81ecec</color>
+    <color name="color4">#74b9ff</color>
+    <color name="color5"> #a29bfe</color>
+    <color name="color6">#dfe6e9</color>
+    <color name="color7">#00b894</color>
+    <color name="color8">#00cec9</color>
+    <color name="color9">#0984e3</color>
+    <color name="color10">#6c5ce7</color>
+    <color name="color11">#b2bec3</color>
+    <color name="color12">#ffeaa7</color>
+    <color name="color13">#fab1a0</color>
+    <color name="color14">#ff7675</color>
+    <color name="color15">#fd79a8</color>
+    <color name="color16">#636e72</color>
+    <color name="color17">#fdcb6e</color>
+    <color name="color18">#e17055</color>
+
+       <array name="rainbow">
+           <item>@color/bright_pink</item>
+           <item>@color/red</item>
+           <item>@color/orange</item>
+           <item>@color/yellow</item>
+           <item>@color/chartreuse</item>
+           <item>@color/green</item>
+           <item>@color/spring_green</item>
+           <item>@color/cyan</item>
+           <item>@color/azure</item>
+           <item>@color/blue</item>
+           <item>@color/violet</item>
+           <item>@color/magenta</item>
+            <item>@color/color2</item>
+    <item>@color/color3</item>
+    <item>@color/color4</item>
+    <item>@color/color5</item>
+    <item>@color/color6</item>
+    <item>@color/color7</item>
+    <item>@color/color8</item>
+    <item>@color/color9</item>
+    <item>@color/color10</item>
+    <item>@color/color11</item>
+    <item>@color/color12</item>
+    <item>@color/color13</item>
+    <item>@color/color14</item>
+    <item>@color/color15</item>
+    <item>@color/color16</item>
+    <item>@color/color17</item>
+    <item>@color/color18</item>
+
+
+       </array>
+</resources>

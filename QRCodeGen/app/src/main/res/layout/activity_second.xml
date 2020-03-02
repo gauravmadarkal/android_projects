@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gauravm.qrcodegen.Second_Activity">
+
+    <TextView
+        android:text="Training Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:id="@+id/radiogroup3"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/radiogroup4"
+        app:layout_constraintRight_toRightOf="@+id/radiogroup4"
+        android:layout_marginTop="74dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:text="@string/maui_thai"
+        android:layout_width="wrap_content"
+        android:textSize="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radiogroup3"
+        android:layout_marginLeft="6dp" />
+
+    <RadioButton
+        android:text="@string/jujutsu"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton2"
+        android:layout_marginStart="11dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioButton1"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/radioButton1"
+        android:layout_marginLeft="11dp" />
+
+    <RadioButton
+        android:text="@string/karate"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton3"
+        android:layout_marginStart="22dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioButton2"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/radioButton2"
+        android:layout_marginLeft="22dp" />
+
+    <RadioButton
+        android:text="@string/judo"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton4"
+        android:layout_marginStart="29dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioButton3"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/radioButton3"
+        android:layout_marginLeft="29dp" />
+
+    <TextView
+        android:text="@string/exercise_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/radiogroup4"
+        app:layout_constraintRight_toRightOf="@+id/radiogroup4"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintLeft_toRightOf="@+id/radiogroup4" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:id="@+id/radiogroup4"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:layout_marginEnd="19dp"
+        app:layout_constraintRight_toRightOf="@+id/radioButton5"
+        android:layout_marginTop="167dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="167dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        android:layout_marginRight="19dp" />
+
+    <RadioButton
+        android:text="@string/cardio"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton5"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/radiogroup4"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="6dp" />
+
+    <RadioButton
+        android:text="@string/strength"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton6"
+        android:layout_marginStart="26dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioButton7"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/radioButton5"
+        android:layout_marginLeft="26dp" />
+
+    <RadioButton
+        android:text="@string/stamina"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton7"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton5"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/radioButton5"
+        app:layout_constraintLeft_toRightOf="@+id/radioButton6"
+        android:layout_marginLeft="16dp" />
+
+    <RadioButton
+        android:text="@string/muscle"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton8"
+        android:layout_marginStart="17dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioButton7"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/radioButton7"
+        android:layout_marginLeft="17dp" />
+
+    <TextView
+        android:text="@string/sport_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="67dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="66dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radioButton5"
+        android:layout_marginLeft="10dp" />
+
+    <CheckBox
+        android:text="@string/dance"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <CheckBox
+        android:text="@string/swimming"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox4"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="166dp"
+        android:layout_marginRight="15dp" />
+
+    <CheckBox
+        android:text="@string/running"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:text="@string/football"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox4"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkBox2"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton7"
+        android:layout_marginLeft="30dp" />
+
+    <CheckBox
+        android:text="@string/rugby"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox5"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="18dp" />
+
+    <Button
+        android:text="@string/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/checkBox3"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox3" />
+
+</android.support.constraint.ConstraintLayout>

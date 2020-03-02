@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BooksDBapp</string>
+    <string name="hintbookname">Enter book name here</string>
+    <string name="hintauthorname">Enter author name here</string>
+    <string name="hintpublisher">Enter publisher name here</string>
+
+</resources>

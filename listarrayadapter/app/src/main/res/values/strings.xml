@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">listarrayadapter</string>
+    <string-array name="movienames">
+        <item>bahubali</item>
+        <item>dangal</item>
+        <item>pk</item>
+        <item>inception</item>
+        <item>half girlfriend</item>
+        <item>wonder women</item>
+        <item>dark knight</item>
+        <item>batman</item>
+        <item>martian</item>
+        <item>deadpool</item>
+        <item>avengers</item>
+        <item>ironman</item>
+        <item>hulk</item>
+
+    </string-array>
+
+
+</resources>

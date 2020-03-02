@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_qrcode_gen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gauravm.qrcodegen.QRCodeGen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Information"
+        android:id="@+id/textView12"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:id="@+id/textView13"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="57dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Enter your name here"
+        android:ems="10"
+        android:id="@+id/editText2"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView13" />
+    <TextView
+        android:text="Age:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+
+    <TextView
+        android:text="Gender:"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:id="@+id/textView14"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton14"
+        app:layout_constraintRight_toRightOf="@+id/radioGroup1"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintLeft_toRightOf="@+id/radioGroup1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/radiogroup2"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton14"
+        app:layout_constraintRight_toRightOf="@+id/radioGroup1"
+        android:layout_marginTop="13dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RadioButton
+        android:text="Male"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton14"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        android:layout_marginTop="101dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="103dp"
+        app:layout_constraintTop_toTopOf="@+id/radioButton10"
+        app:layout_constraintLeft_toRightOf="@+id/radiogroup2"
+        android:layout_marginLeft="9dp" />
+
+    <RadioButton
+        android:text="Female"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton15"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintRight_toRightOf="@+id/button"
+        android:layout_marginTop="29dp"
+        app:layout_constraintTop_toTopOf="@+id/textView14"
+        android:layout_marginRight="2dp" />
+
+    <RadioButton
+        android:text="Other"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton16"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintRight_toRightOf="@+id/radioButton11"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioButton15"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="80dp" />
+
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="gotosecond"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="77dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="140dp" />
+
+    <RadioGroup
+        android:layout_width="368dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <RadioButton
+        android:text="@string/_10yrs"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton10"
+        android:layout_marginStart="8dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/radioGroup1"
+        android:layout_marginLeft="8dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup1" />
+
+    <RadioButton
+        android:text="10-15yrs"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton11"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioButton12"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="16dp" />
+
+    <RadioButton
+        android:text="16-40yrs"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton12"
+        app:layout_constraintRight_toLeftOf="@+id/radioButton11"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton16"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="101dp"
+        app:layout_constraintTop_toTopOf="@+id/editText2"
+        android:layout_marginRight="16dp" />
+
+    <RadioButton
+        android:text="@string/_40yrs"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton13"
+        app:layout_constraintRight_toLeftOf="@+id/radioButton12"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioButton12"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="16dp" />
+
+
+</android.support.constraint.ConstraintLayout>

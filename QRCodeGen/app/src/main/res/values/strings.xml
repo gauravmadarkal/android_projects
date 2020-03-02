@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">QRCodeGen</string>
+    <string name="_10yrs"><![CDATA[<10yrs]]></string>
+    <string name="_40yrs"><![CDATA[>40yrs]]></string>
+    <string name="maui_thai">Maui Thai</string>
+    <string name="jujutsu">Jujutsu</string>
+    <string name="karate">Karate</string>
+    <string name="judo">Judo</string>
+    <string name="exercise_type">Exercise Type</string>
+    <string name="cardio">Cardio</string>
+    <string name="strength">Strength</string>
+    <string name="stamina">Stamina</string>
+    <string name="muscle">Muscle</string>
+    <string name="sport_type">Sport Type</string>
+    <string name="dance">Dance</string>
+    <string name="swimming">Swimming</string>
+    <string name="football">Football</string>
+    <string name="running">Running</string>
+    <string name="rugby">Rugby</string>
+    <string name="submit">Submit</string>
+
+</resources>

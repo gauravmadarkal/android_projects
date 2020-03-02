@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intentapp</string>
+    <string name="name">Enter your name here</string>
+    <string name="phone">Enter your phone number</string>
+    <string name="email">Enter your email address</string>
+    <string name="secondactivitymessage">Thank you for registering.</string>
+
+
+</resources>
